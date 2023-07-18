@@ -2,4 +2,4 @@
 
 This is a repository for batch 10 students to practice git
 
-Enjoy!
+Make sure you learn this well!
