@@ -1,7 +1,6 @@
 Contributer List:
  - Murad
  - Karma  
-=======
  - Hui
  - Krystal
  - Lena
@@ -11,5 +10,5 @@ Contributer List:
  - Javier
  - Anthony
  - Marvin
-master
+
 
