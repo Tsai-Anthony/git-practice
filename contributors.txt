@@ -1,6 +1,5 @@
 Contributer List:
  - Murad
- - Alice
  - Hui
  - Krystal
  - Lena
@@ -10,3 +9,4 @@ Contributer List:
  - Javier
  - Anthony
  - Marvin
+ - Alice
