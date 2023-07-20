@@ -9,3 +9,4 @@ Contributer List:
  - Javier
  - Anthony
  - Marvin
+ - Alice
