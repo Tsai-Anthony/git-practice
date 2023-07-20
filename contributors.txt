@@ -11,6 +11,5 @@ Contributer List:
  - Javier
  - Anthony
  - Marvin
- - Karma 
 master
 
