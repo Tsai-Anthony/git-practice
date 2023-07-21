@@ -1,5 +1,1 @@
-Hello 
-my
-name
-is
-Lena Chen
+Hello my name is Lena Chen
