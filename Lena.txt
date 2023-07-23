@@ -1,0 +1,53 @@
+Hello Lena! Good luck on your studies!
+
+1.) Write a Java program to swap the value of two int variables, if the first number is 10 and the second number is 10.
+	Before swap : Num1 = 11 
+				  Num2 = 22
+
+	Answer swap : Num1 = 22
+				: Num2 = 11
+
+Answer: 
+
+
+2.) Given an array like below, please print out this message:
+	"LENA!"
+	String[] letters = {"K","E","N","A","!"};
+
+	*hint*(loop)
+
+Answer:
+
+
+3.) Print all the numbers that are divisible by 4 from 1-100
+
+	*hint*(loop)
+
+Answer: 
+
+
+4.) Given a string, return a new string made of 3 copies of the first 2 chars of the original string. The string may be any length. If there are fewer than 2 chars, use whatever is there.
+
+
+extraFront("Hello") → "HeHeHe"
+extraFront("ab") → "ababab"
+extraFront("H") → "HHH"
+
+Answer: 
+public String extraFront(String str) {
+
+
+5.) Ask user to enter 4 numbers ( use Scanner), and then tell them which number of the four is bigger
+
+Answer:
+
+
+6.) Given two non-negative int values, return true if they have the same last digit, such as with 27 and 57. Note that the % "mod" operator computes remainders, so 17 % 10 is 7.
+
+
+lastDigit(7, 17) → true
+lastDigit(6, 17) → false
+lastDigit(3, 113) → true
+
+Answer: 
+public boolean lastDigit(int a, int b) {

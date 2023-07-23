@@ -1,0 +1,51 @@
+Hello Krystal! Good luck on your studies!
+
+1.) Write a Java program to swap the value of two int variables, if the first number is 10 and the second number is 10.
+	Before swap : Num1 = 10 
+				  Num2 = 100
+
+	Answer swap : Num1 = 100
+				: Num2 = 10
+
+Answer: 
+
+
+2.) Given an array like below, please print out this message:
+	"Krystal!"
+	String[] letters = {"K","R","Y","S","T","A","L","!"};
+
+	*hint*(loop)
+
+Answer:
+
+
+3.) Print all the numbers that are divisible by 5 from 1-100
+
+	*hint*(loop)
+
+Answer: 
+
+
+4.) Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2.
+
+left2("Hello") → "lloHe"
+left2("java") → "vaja"
+left2("Hi") → "Hi"
+
+Answer: 
+public String left2(String str) {
+
+
+5.) Ask user to enter 2 numbers ( use Scanner), and then tell them which number of the two is bigger
+
+Answer:
+
+
+6.) Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3, the front is whatever is there. Return a new string which is 3 copies of the front.
+
+front3("Java") → "JavJavJav"
+front3("Chocolate") → "ChoChoCho"
+front3("abc") → "abcabcabc
+
+Answer: 
+public String front3(String str) {

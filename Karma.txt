@@ -1,0 +1,53 @@
+Hello Karma! Good luck on your studies!
+
+1.) Write a Java program to swap the value of two int variables, if the first number is 10 and the second number is 10.
+	Before swap : Num1 = 5 
+				  Num2 = 23
+
+	Answer swap : Num1 = 23
+				: Num2 = 5
+
+Answer: 
+
+
+2.) Given an array like below, please print out this message:
+	"Karma!"
+	String[] letters = {"K","A","R","M","A","!"};
+
+	*hint*(loop)
+
+Answer:
+
+
+3.) Print all the numbers that are divisible by 10 from 1-100
+
+	*hint*(loop)
+
+Answer: 
+
+
+4.) Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1.
+
+
+nonStart("Hello", "There") → "ellohere"
+nonStart("java", "code") → "avaode"
+nonStart("shotl", "java") → "hotlava"
+
+Answer: 
+public String nonStart(String a, String b) {
+
+
+5.) Ask user to enter 3 numbers ( use Scanner), and then tell them which number of the three is bigger
+
+Answer:
+
+
+6.) Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+
+
+sumDouble(1, 2) → 3
+sumDouble(3, 2) → 5
+sumDouble(2, 2) → 8
+
+Answer: 
+public int sumDouble(int a, int b) {
