@@ -1,4 +1,5 @@
 Hello Krystal! Good luck on your studies!
+You are so Sweet Anthony! Thank you!
 
 1.) Write a Java program to swap the value of two int variables, if the first number is 10 and the second number is 10.
 	Before swap : Num1 = 10 
@@ -8,6 +9,23 @@ Hello Krystal! Good luck on your studies!
 				: Num2 = 10
 
 Answer: 
+public class backToJava {
+
+	public static void main(String[] args) {
+
+		
+		  int num1 = 10;
+		  int num2 = 100;
+		  System.out.println("Before swap: Num1= " + num1 + " Num2= " + num2);
+		  
+		  int temp = num1; 
+		  num1= num2; 
+		  num2 = temp;
+		              
+		  System.out.println("After swap: Num1= " + num1 + " Num2= " + num2);
+	}
+
+}
 
 
 2.) Given an array like below, please print out this message:
@@ -16,7 +34,27 @@ Answer:
 
 	*hint*(loop)
 
-Answer:
+Answer: 
+public class backToJava {
+
+	public static void main(String[] args) {
+
+
+		String[] letters = { "K", "R", "Y", "S", "T", "A", "L", "!" };
+
+		System.out.print(letters[0]);
+		System.out.print(letters[1]);
+		System.out.print(letters[2]);
+		System.out.print(letters[3]);
+		System.out.print(letters[4]);
+		System.out.print(letters[5]);
+		System.out.print(letters[6]);
+		System.out.print(letters[7]);
+		}
+
+	}
+
+	
 
 
 3.) Print all the numbers that are divisible by 5 from 1-100
@@ -24,6 +62,19 @@ Answer:
 	*hint*(loop)
 
 Answer: 
+import java.util.Iterator;
+
+public class backToJava {
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 100; i++) {
+			if (i % 5 == 0) {
+				System.out.println(i);
+			}
+		}
+	}
+}
 
 
 4.) Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2.
@@ -35,10 +86,43 @@ left2("Hi") → "Hi"
 Answer: 
 public String left2(String str) {
 
+		if (str.length() >= 2) {
+			String firstTwo = str.substring(0, 2);
+			String rest = str.substring(2);
+			return rest + firstTwo;
+		} else {
+			return str;
+		}
+	}
+
 
 5.) Ask user to enter 2 numbers ( use Scanner), and then tell them which number of the two is bigger
 
-Answer:
+Answer: 
+import java.util.Scanner;
+
+public class backToJava {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter 2 numbers: ");
+		int num1 = scan.nextInt();
+		int num2 = scan.nextInt();
+		scan.close();
+
+		if (num1 == num2) {
+			System.out.println("These two numbers are the same");
+		} else {
+			if (num1 > num2) {
+				System.out.println(num1 + " is bigger");
+			} else {
+				System.out.println(num2 + " is bigger");
+			}
+		}
+	}
+}
+
 
 
 6.) Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3, the front is whatever is there. Return a new string which is 3 copies of the front.
@@ -48,4 +132,18 @@ front3("Chocolate") → "ChoChoCho"
 front3("abc") → "abcabcabc
 
 Answer: 
-public String front3(String str) {
+public String front3(String str) 
+
+	public String front3(String str) {
+
+		String front = "";
+		if (str.length() >= 3) {
+			front = str.substring(0, 3);
+		} else {
+			front = str;
+		}
+
+		String result = front + front + front;
+		return result;
+	}
+}
