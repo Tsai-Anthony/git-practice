@@ -7,7 +7,11 @@ Hello Karma! Good luck on your studies!
 	Answer swap : Num1 = 23
 				: Num2 = 5
 
-Answer: 
+Answer: int temp=num1;
+num1=num2;
+num2=temp;
+num1=num2;
+num2=num1;
 
 
 2.) Given an array like below, please print out this message:
@@ -16,6 +20,10 @@ Answer:
 
 	*hint*(loop)
 
+	for (char c: letters) {
+	System.out.println(letters(c));
+	}
+
 Answer:
 
 
@@ -23,7 +31,11 @@ Answer:
 
 	*hint*(loop)
 
-Answer: 
+Answer: for (i=0; i<1; i++) {
+	if (i % 10) {
+	i
+	}
+}
 
 
 4.) Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1.
@@ -36,10 +48,16 @@ nonStart("shotl", "java") → "hotlava"
 Answer: 
 public String nonStart(String a, String b) {
 
+return a.substring(1, a.length()-1), b.string(1, b.length()-1)
+
 
 5.) Ask user to enter 3 numbers ( use Scanner), and then tell them which number of the three is bigger
 
-Answer:
+Answer: Scanner scan= new Scanner(SystemIn);
+num=scan.ScannerInt;
+
+
+
 
 
 6.) Given two int values, return their sum. Unless the two values are the same, then return double their sum.
@@ -51,3 +69,20 @@ sumDouble(2, 2) → 8
 
 Answer: 
 public int sumDouble(int a, int b) {
+
+int sum=0;
+if (a==b) {
+	return int num {[a+a],[b+b]};
+}
+
+return a+b;
+
+
+
+
+
+
+
+
+
+
